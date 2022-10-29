@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="index.css">
+    <link src="https://maxcdn.bootstrapcnd.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="save.html" name="MyForm" onsubmit="return(validate());" id="form">
+            <div class="title">Get started</div>
+            <div>
+                <p class="error1"></p>
+                <label for="username">Username</label>
+
+
+                <input type="text" name="username" id="username" placeholder="Paschal">
+
+
+            </div>
+
+
+            <p class="error"></p>
+            <div>
+                <label for="Email">Email</label>
+                <input type="email" name="email" id="email" placeholder="paschal@gmail.com">
+            </div>
+            <div>
+                <p class="error"></p>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Password Here">
+            </div>
+            <button id="btn" type="submit">Submit</button>
+    </div>
+    </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
